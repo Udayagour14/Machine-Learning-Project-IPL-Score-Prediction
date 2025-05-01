@@ -2,9 +2,10 @@
 ### 1.Project overview
 This project aims to predict the total score of a cricket team at the end of their innings during an IPL (Indian Premier League) match. The model is built using historical data from IPL seasons 1 to 9 (2008-2016) and tested on data from season 10 (2017). The model uses various machine learning algorithms to predict the score based on input features such as the batting and bowling teams, overs, runs, wickets, and other match statistics.
 
+
 ### 2. Data Understanding
 2.1 Data Collection
--
+
 The dataset used for this project is an IPL dataset (ipl.csv) containing match statistics for each ball bowled in a match. The dataset includes:
 ●Batting team
 ●Bowling team
@@ -17,6 +18,5 @@ The dataset used for this project is an IPL dataset (ipl.csv) containing match s
 ●Date of the match
 
 2.2 Data Exploration
--
 ●The dataset contains multiple columns such as match ID, venue, batsman, bowler, striker, non-striker, etc.
 ●We perform basic data exploration, such as checking the shape of the dataset, data types, and the first few records, to understand the structure of the data.
