@@ -7,7 +7,7 @@ This project aims to predict the total score of a cricket team at the end of the
 
 2.1 Data Collection
 
-*The dataset used for this project is an IPL dataset (ipl.csv) containing match statistics for each ball bowled in a match. The dataset includes:
+**The dataset used for this project is an IPL dataset (ipl.csv) containing match statistics for each ball bowled in a match. The dataset includes:
 ●Batting team
 ●Bowling team
 ●Overs (current over in the match)
@@ -16,7 +16,7 @@ This project aims to predict the total score of a cricket team at the end of the
 ●Runs in last 5 overs
 ●Wickets in last 5 overs
 ●Total score of the batting team at the end of the innings
-●Date of the match*
+●Date of the match**
 
 2.2 Data Exploration
 
