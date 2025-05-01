@@ -4,6 +4,7 @@ This project aims to predict the total score of a cricket team at the end of the
 
 
 ### 2. Data Understanding
+
 2.1 Data Collection
 
 The dataset used for this project is an IPL dataset (ipl.csv) containing match statistics for each ball bowled in a match. The dataset includes:
