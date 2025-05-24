@@ -3,7 +3,7 @@
 This project aims to predict the total score of a cricket team at the end of their innings during an IPL (Indian Premier League) match. The model is built using historical data from IPL seasons 1 to 9 (2008-2016) and tested on data from season 10 (2017). The model uses various machine learning algorithms to predict the score based on input features such as the batting and bowling teams, overs, runs, wickets, and other match statistics.
 
 
-### 2. Data Understanding
+**2. Data Understanding**
 
 
 **2.1 Data Collection**
@@ -41,18 +41,18 @@ The dataset used for this project is an IPL dataset (ipl.csv) containing match s
 - Random Forest Regression (More stability and generalization)
 - AdaBoost Regressor (Boosts weak learners for better accuracy)
 
-  **5.Evaluate models using error metrics**
+**5.Evaluate models using error metrics**
 - Mean Absolute Error (MAE) – Measures average prediction error.
 - Mean Squared Error (MSE) – Penalizes large mistakes in predictions.
 - Root Mean Squared Error (RMSE) – Converts MSE back to original units for better interpretation.
 - 
-  **6.Make Predictions**
+**6.Make Predictions**
 ✔ Use trained models to predict total scores for matches.
 ✔ Ensure feature alignment between input data (X_test) and model (X_train).
 ✔ Run predictions dynamically for different IPL matches, ensuring expected output format.
 ✔ Check prediction accuracy by comparing results with real match scores.
 
- **7. Model Comparison**
+**7. Model Comparison**
 | Model | MAE (Lower is better) | MSE (Lower is better) | RMSE (Lower is better) | 
 | Linear Regression | 0.4569 (Best) | 0.3899 (Best) | 0.6245 (Best) | 
 | Decision Tree | 0.6131 (Worst) | 0.7080 (Worst) | 0.8415 (Worst) | 
